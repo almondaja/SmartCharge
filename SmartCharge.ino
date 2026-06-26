@@ -72,15 +72,15 @@ const char *STA_PASSWORD = "1sampai8";
 // URL web cloud yang akan masuk ke QR thermal.
 // Harus bisa dibuka dari HP user lewat internet.
 // Contoh produksi: https://charge.domainkamu.com
-const char *PUBLIC_WEB_BASE_URL = "https://ISI-DOMAIN-WEB-KAMU";
+const char *PUBLIC_WEB_BASE_URL = "https://smart-charge-tau.vercel.app";
 
 // ---------- MQTT cloud ----------
 // Jangan isi IP laptop 192.168.x.x di sini kalau mau alat berdiri sendiri.
 // Pakai broker cloud/VPS yang selalu online, lebih bagus pakai domain.
-const char *MQTT_HOST = "ISI-DOMAIN-BROKER-MQTT-KAMU";
+const char *MQTT_HOST = "test.mosquitto.org";
 const uint16_t MQTT_PORT = 1883;
-const char *MQTT_USER = "ukwms";
-const char *MQTT_PASSWORD = "ukwms";
+const char *MQTT_USER = "";
+const char *MQTT_PASSWORD = "";
 
 // ---------- Printer Bluetooth thermal ----------
 const char *BT_LOCAL_NAME = "SmartCharge-ESP32";
